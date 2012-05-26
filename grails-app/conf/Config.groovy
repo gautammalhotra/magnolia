@@ -91,3 +91,7 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+article.teaser.max.length = 140
+article.shortHeading.max.length = 25
+article.shortTeaser.max.length = 64
