@@ -109,4 +109,10 @@ class VinMagnoliaUtils {
         }
         contents
     }
+    
+    public static List<MagnoliaContentVO> fetchAllLeafNodes(String nodePath) {
+        Content node = getWebsiteContentByNodePath(nodePath)
+        node ? fetchAllChildrenRecurse(node) : []
+    }
+    
 }
