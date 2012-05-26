@@ -7,7 +7,7 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Comapny Page Template</title>
+    <title>Company Page Template</title>
     <cms:init/>
 </head>
 

@@ -10,7 +10,7 @@ import info.magnolia.module.blossom.annotation.*
 class CompanyPageTemplateController {
 
     def index() {
-        render view: '/magnolia/homePageTemplate'
+        render view: '/magnolia/companyPageTemplate'
     }
 
     @TabFactory("Content")
