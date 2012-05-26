@@ -1,0 +1,1 @@
+<a href="${url}" class="${cssClass}" target="_blank" rel="nofollow">${name}</a>

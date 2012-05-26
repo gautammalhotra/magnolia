@@ -5,7 +5,14 @@ grails.project.test.reports.dir = "target/test-reports"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
-
+grails.project.ivy.authentication = {
+    credentials {
+        realm = "Sonatype Nexus Repository Manager"
+        host = "koka1.kokaihop.se"
+        username = "ig"
+        password = "proto123"
+    }
+}
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
@@ -26,13 +33,16 @@ grails.project.dependency.resolution = {
         //mavenCentral()
         //mavenLocal()
         //mavenRepo "http://snapshots.repository.codehaus.org"
-        //mavenRepo "http://repository.codehaus.org"
+        mavenRepo "http://repository.codehaus.org"
+        //mavenRepo "http://repository.jboss.com/maven2/"
         mavenRepo "http://download.java.net/maven/2/"
+        //mavenRepo "http://repository.jboss.com/maven2/"
+        mavenRepo "http://koka1.kokaihop.se:9091/nexus/content/groups/public"
+        mavenRepo "http://m2repo.spockframework.org/snapshots"
         mavenRepo "http://repository.openmindonline.it"
         mavenRepo "http://raykrueger.googlecode.com/svn/repository"
         mavenRepo "http://files.couchbase.com/maven2"
         mavenRepo "http://grails.org/plugins"
-        //mavenRepo "http://repository.jboss.com/maven2/"
     }
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.

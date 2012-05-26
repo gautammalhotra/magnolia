@@ -1,0 +1,4 @@
+export GRAILS_HOME=~/grails-1.3.7/
+export PATH=$PATH:$GRAILS_HOME/bin
+export JAVA_OPTS="-XX:MaxPermSize=128m -Xms812m -Xmx1400m -server"
+export JAVA_HOME=/usr/lib/jvm/java-6-sun

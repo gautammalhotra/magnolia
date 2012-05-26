@@ -1,0 +1,1 @@
+<div id="banner"><img src="${mgnlmedia.resImage(content: content?.homePageImage, resolution: "968x211")}"/></div>

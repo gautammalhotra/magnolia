@@ -1,0 +1,104 @@
+/* Home page leftPanel start */
+/*#banner{clear:both; border:1px solid #b9bdc1; padding:1px; height:132px;}*/
+/*h1.heading{color:#050754; font-size:26px; padding:0; margin:0; font-family:Arial, Helvetica, sans-serif, "Arial Rounded MT Bold"; position:absolute;top:120px; padding:20px; width:600px; z-index:10;}*/
+/*div.heading{color:#050754; font-size:26px; padding:0; margin:0; font-family:Arial, Helvetica, sans-serif, "Arial Rounded MT Bold"; position:absolute;top:120px; padding:20px; width:600px; z-index:10;}*/
+/*.charu{color:#050754; font-size:26px; padding:0; margin:0; font-family:Arial, Helvetica, sans-serif, "Arial Rounded MT Bold"; position:absolute;top:120px; padding:20px; width:600px; z-index:10;}*/
+
+
+#banner{clear:both; border:1px solid #b9bdc1; padding:1px; height:211px;}
+h1.heading{color:#050754; font-size:26px; padding:0; margin:0; font-family:Arial, Helvetica, sans-serif, "Arial Rounded MT Bold"; position:absolute;top:120px; padding:20px; width:600px; z-index:10;}
+h1.heading span{color:#f8981d;}
+#leftPanel h2{color:#333333;font-size:16px;line-height:30px; font-weight:normal;}
+#leftPanel h2 a{color:#333333;}
+#leftPanel h2 a:hover{color:#333333;}
+#leftPanel h3{color:#333333;font-size:15px;line-height:28px; font-weight:normal;}
+#leftPanel h3 a{color:#333333;}
+#leftPanel h3 a:hover{color:#333333;}
+#leftPanel h4{color:#333333;font-size:14px;line-height:26px; font-weight:normal;}
+#leftPanel h5{color:#333333;font-size:13px;line-height:24px; }
+#leftPanel h5 a{color:#333333; text-decoration:none; background:url(../images/arrow-gray.jpg) no-repeat left 4px;padding-left:12px;}
+#leftPanel h5 a:hover{color:#333333;}
+#leftPanel h6{color:#333333;font-size:12px;line-height:20px; }
+/* blockPanel start */
+#blockPanel{clear:both; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:13px; padding-top:20px; color:#7d7d7d;}
+#blockPanel ul li{background:#fcfeff; border:1px solid #f0f2f4; float:left; width:30%; padding:5px 10px; margin-right:15px;}
+#blockPanel .heading{border-bottom:1px dotted #a3a6a7; font-size:18px; clear:both; line-height:26px; color:#f8981d; font-weight:normal;}
+#blockPanel ul li ul li{background:url(../images/arrows.png) no-repeat left 8px; padding:5px 15px; border:none; clear:both; width:90%; overflow:hidden;}
+#blockPanel ul li ul li a{text-decoration:none; color:#1268b3;}
+#blockPanel ul li ul li h2{font-weight:normal; padding:0; margin:0; line-height:13px;}
+#blockPanel ul li ul li h2 a{text-decoration:none; color:#1268b3; font-size:13px; font-weight:normal; padding:0; margin:0;}
+#blockPanel ul li ul li a h2 {text-decoration:none; color:#1268b3; font-size:13px; font-weight:normal;}
+#blockPanel ul li ul li a:hover{text-decoration:underline;}
+#blockPanel ul li.right{margin-right:0px; float:right;}
+#blockPanel ul li p{clear:both; padding:5px 0px;}
+/* end blockPanel start content */
+#content-slider {position: relative;width: 97%;float:left;z-index:9999}
+.content-slider-handle {width: 8px;height: 14px;position: absolute;background: #478AFF;border: solid 1px black;}
+#content-scroll {height:90px;width:100%;float:left;overflow: hidden;position:relative;}
+#content-holder {position:absolute;width: 1830px;left:0;top:5px;  padding-top:10px;}
+.ui-slider-handle {width: 38px;height: 16px;position: absolute;top: -8px;background:url(../images/scroller.gif) no-repeat 0 0;}
+img{border:none;}
+#network{float:left; width:100%; position:relative; font-family:Arial, Helvetica, sans-serif; height:90px;}
+#network ul{float:left; width:100%; list-style:none;}
+#network ul li{float:left; width:261px;}
+#network ul li.pixel{float:left; width:261px;}
+#network ul li img{float:left; width:auto;padding-bottom:10px;}
+#network ul li a.link{float:left; width:auto; font-size:11px; line-height:16px; color:#1268b3; text-decoration:none; background:url(../images/arrows.png) no-repeat right 3px; padding-right:15px}
+#network ul li a:hover{text-decoration:underline;}
+#network ul li p{font-size:11px; line-height:16px; color:#000; clear:both;}
+#network .scroll_bar{float:left; width:100%; width:100%; height:16px; position:absolute; bottom:-38px; left:0;}
+#network .scroller{float:left; width:36px; height:16px; position:absolute; bottom:-38px; left:5px;}
+/* end blockPanel  start testimonialPanel  */
+#navi{float:left; width:220px; font-size:11px;}
+#navi ul{padding:5px;}
+#navi ul li {padding:1px;}
+#navi a{color:#9a9d9f; text-decoration:none;}
+#navi ul li ul li {background:url(../images/arrow.png) no-repeat left 6px; padding-left:10px;}
+#navi a.select{color:#333; text-decoration:none;}
+#navi a:hover{color:#333;}
+#news{float:left; padding:5px 10px; width:95%; }
+#news ul li {padding:5px 0;}
+#news a{color:#1268b3; text-decoration:none;}
+#news a:hover{color:#333;}
+#news .heading{border-bottom:1px dotted #a3a6a7; font-size:18px; clear:both; line-height:26px; color:#f8981d; font-weight:normal;}
+.box{float:right; width:60%; background:url(../images/divider.png) no-repeat top left;}
+.boxwithoutbg{ background:none; width:40%}
+#testimonial{float:right;  padding:5px 10px;}
+#testimonial p{padding:5px 0px;}
+#testimonial span{font-size:11px; color:#a3a6a7;}
+#testimonial .heading{border-bottom:1px dotted #a3a6a7; font-size:18px; clear:both; line-height:26px; color:#f8981d; font-weight:normal;}
+/* end  testimonialPanel end Home page Start Contacts Pages */
+#fields{float:left; width: 200px; margin-top: 20px;  background:#dfdddd; padding:10px;font-size:11px;}
+#fields input[type=text]{width: 90%;}
+#fields ul li{ clear:both; padding:4px 0;}
+.textbox{ clear:both; padding:5px 0;background:#fff url(../images/form-bg.png) left -12px repeat-x;border:1px solid #D7D5D5;font-size:11px;margin:3px 5px 5px 0px;padding:5px 5px 5px 5px;font-family:Arial, Helvetica, sans-serif;}
+.button{ background:#f8981d; padding:5px 10px;font-family:Arial, Helvetica, sans-serif;font-size:11px; border:none; color:#fff; }
+#contactBox{float:left;width:445px;border:1px solid #e0e3e5; padding:10px; font-size:11px; height:320px; margin-left:22px;}
+#contactBox .head{border-bottom:1px dotted #a3a6a7; font-size:18px; clear:both; line-height:30px; color:#585aa8; font-weight:normal;}
+#contactBox p{ line-height:22px; padding:5px; color:#999898;}
+#leftPanel .head{border-bottom:1px dotted #a3a6a7; font-size:18px; clear:both; line-height:30px; color:#333; margin-bottom:10px;}
+#googlemap{float:right;width:250px;border:1px solid #e0e3e5;  height:340px;}
+/* end Contacts Pages start how we work page */
+#leftbox{float:left;width:175px; font-size:14px;font-family:Arial, Helvetica, sans-serif; font-weight:bold; }
+#leftmenu { font-size:13px; clear:both;  color:#f8981d; font-weight:normal;}
+#leftmenu ul li {clear:both; text-align:right;}
+#leftmenu ul li a{font-weight:bold; border-bottom:1px dotted #a3a6a7;color:#1c1f7a; padding:15px 20px 10px 0;background:url(../images/arrow-gray.png) no-repeat 166px 20px; text-decoration:none;line-height:20px; display:block;}
+#leftmenu ul li a.select{color:#f8981d;background:url(../images/arrow-yellow.png) no-repeat 166px 20px; display:block;}
+#leftmenu ul li a:hover{color:#f8981d; background:url(../images/arrow-yellow.png) no-repeat 166px 20px; display:block;}
+#content{float:right;width:525px;font-size:13px; color:#7d7d7d; border-left:1px solid #e0e3e5;padding-left:10px;}
+#content a{color:#1c1f7a;text-decoration:none;}
+#content a:hover{text-decoration:underline;}
+
+ul.arrow{padding:5px; clear:both;}
+ul.arrow li{padding:2px 20px;background:url(../images/arrow-yellow.png) no-repeat left 8px; display:block;}
+
+ul.arrowlink{padding:5px; clear:both;}
+ul.arrowlink li{clear:both}
+ul.arrowlink li a{padding:2px 20px;background:url(../images/arrows.png) no-repeat left 8px; display:block; text-decoration:none; color:#1268b3;}
+ul.arrowlink li a:hover{text-decoration:underline}
+#employee{clear:both;}
+#employee ul li{clear:both; padding:10px 0;border-bottom:dotted 1px #a3a6a7; }
+#employee ul li img{float:left; padding-right:10px; }
+#slider div.heading {border-bottom:dotted 1px #A3A6A7;padding-top:10px; clear:both;color:#F8981D;font-size:18px;font-weight:normal;line-height:26px;}/* end how we work page */
+.teamhead{display:block; font-weight:bold; color:#f8981d; padding-bottom:5px;}
+.yellow{color:#F8981D;}
