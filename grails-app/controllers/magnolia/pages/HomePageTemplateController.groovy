@@ -24,10 +24,19 @@ class HomePageTemplateController {
         settings.addEdit("metaKeywords", "Meta keywords", "");
     }
 
-    @Area("homePageArea")
+    @Area("homePageAreaMain")
     @Inherits
     @AvailableComponentClasses([HomePageBannerController.class, HomePageController.class, StaticHtmlController.class])
-    static class HomePageAreaController {
+    static class HomePageAreaMainController {
+
+        def index = {
+            render view: "/magnolia/componentIterator"
+        }
+    }
+    @Area("homePageAreaBelow")
+    @Inherits
+    @AvailableComponentClasses([HomePageController.class, StaticHtmlController.class])
+    static class HomePageAreaBelowController {
 
         def index = {
             render view: "/magnolia/componentIterator"

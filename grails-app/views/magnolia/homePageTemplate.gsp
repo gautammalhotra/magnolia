@@ -8,10 +8,17 @@
 <head>
     <meta name="layout" content="main"/>
     <title>Home Page Template</title>
-<cms:init/>
+    <cms:init/>
 </head>
 
 <body>
-<cms:area name="homePageArea"/>
+<cms:area name="homePageAreaMain"/>
+
+
+<div id="blockPanel">
+    <ul>
+        <cms:area name="homePageAreaBelow"/>
+    </ul>
+</div>
 </body>
 </html>

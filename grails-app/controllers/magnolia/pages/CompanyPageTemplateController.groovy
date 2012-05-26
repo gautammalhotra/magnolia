@@ -22,7 +22,7 @@ class CompanyPageTemplateController {
 
     @Area("companyPageArea")
     @Inherits
-    @AvailableComponentClasses([HomePageBannerController.class, HomePageController.class, StaticHtmlController.class])
+    @AvailableComponentClasses([StaticHtmlController.class])
     static class CompanyPageAreaController {
 
         def index = {

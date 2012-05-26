@@ -20,5 +20,6 @@ class HomePageBannerController {
     public void addDialog(TabBuilder builder, Dialog dialog, DialogCreationContext context) {
         TabBuilderUtils.addDialogSelectModal(context, builder, "homePageImage",
                 "Home Page Image", "Main large image")
+        builder.addEdit("title","Title for Image", "Provide a title for the image")
     }
 }
